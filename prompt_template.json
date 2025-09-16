@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n                        Summarize the research paper {paper_input} in a \n                        {style_input} style within {length_input} words.\n                        -Give the breif overview of the paper\n                        - Exlain all the key aspects. \n                        - Include all the mathematical formulas if any for understanding. \n                        - Cross verify if all the facts are factually correct.\n                        - Use simple language for understanding.\n                        - Follow all the instrcutions mentioned above.\n                        ",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
