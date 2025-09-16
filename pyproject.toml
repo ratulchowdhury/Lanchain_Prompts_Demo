@@ -1,0 +1,20 @@
+[project]
+name = "langchain-prompts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.27",
+    "langchain-google-genai>=2.1.10",
+    "langchain-huggingface>=0.3.1",
+    "langchain-openai>=0.3.33",
+    "openai>=1.107.2",
+    "python-dotenv>=1.1.1",
+    "scikit-learn>=1.7.2",
+    "sentence-transformers>=5.1.0",
+    "streamlit>=1.49.1",
+    "tokenizers>=0.22.0",
+    "torch>=2.8.0",
+    "transformers>=4.56.1",
+]
